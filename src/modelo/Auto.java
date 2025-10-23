@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class Auto {
@@ -27,7 +29,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "modelo.Auto{" +
                 "modelo='" + modelo + '\'' +
                 ", motor='" + motor + '\'' +
                 ", escuderia=" + escuderia +

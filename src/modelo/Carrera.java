@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class Carrera {
@@ -35,7 +37,7 @@ public class Carrera {
 
     @Override
     public String toString() {
-        return "Carrera{" +
+        return "modelo.Carrera{" +
                 "fechaRealizacion='" + fechaRealizacion + '\'' +
                 ", numeroVueltas=" + numeroVueltas +
                 ", horaRealizacion='" + horaRealizacion + '\'' +

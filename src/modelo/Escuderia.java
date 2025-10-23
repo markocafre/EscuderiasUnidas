@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class Escuderia {
@@ -31,7 +33,7 @@ public class Escuderia {
 
     @Override
     public String toString() {
-        return "Escuderia{" +
+        return "modelo.Escuderia{" +
                 "nombre='" + nombre + '\'' +
                 ", mecanicos=" + mecanicos +
                 ", pais=" + pais +

@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class AutoPiloto {
@@ -27,7 +29,7 @@ public class AutoPiloto {
 
     @Override
     public String toString() {
-        return "AutoPiloto{" +
+        return "modelo.AutoPiloto{" +
                 "fechaAsignacion='" + fechaAsignacion + '\'' +
                 ", carreras=" + carreras +
                 ", piloto=" + piloto +

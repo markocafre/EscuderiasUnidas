@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class Piloto extends Persona {
@@ -40,7 +42,7 @@ public class Piloto extends Persona {
 
     @Override
     public String toString() {
-        return "Piloto{" +
+        return "modelo.Piloto{" +
                 "numeroCompetencia=" + numeroCompetencia +
                 ", vicorias=" + vicorias +
                 ", polePosition=" + polePosition +

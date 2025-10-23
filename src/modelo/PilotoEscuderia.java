@@ -1,3 +1,5 @@
+package modelo;
+
 public class PilotoEscuderia {
     private String desdeFecha;
     private String hastaFecha;
@@ -25,7 +27,7 @@ public class PilotoEscuderia {
 
     @Override
     public String toString() {
-        return "PilotoEscuderia{" +
+        return "modelo.PilotoEscuderia{" +
                 "desdeFecha='" + desdeFecha + '\'' +
                 ", hastaFecha='" + hastaFecha + '\'' +
                 ", piloto=" + piloto +

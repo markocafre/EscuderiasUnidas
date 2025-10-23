@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class Circuito {
@@ -27,7 +29,7 @@ public class Circuito {
 
     @Override
     public String toString() {
-        return "Circuito{" +
+        return "modelo.Circuito{" +
                 "nombre='" + nombre + '\'' +
                 ", longitud=" + longitud +
                 ", pais=" + pais +

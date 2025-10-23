@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 
 public class Pais {
@@ -35,7 +37,7 @@ public class Pais {
 
     @Override
     public String toString() {
-        return "Pais{" +
+        return "modelo.Pais{" +
                 "idPais=" + idPais +
                 ", descipcion='" + descipcion + '\'' +
                 ", personas=" + personas +
